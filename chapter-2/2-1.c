@@ -3,8 +3,8 @@
 // Calculates the maximum and minumum size of a signed short int
 // Uses two different methods to do the calculation
 //  Method 1 - iterates by added 1 to n until overflow is reached
-//  Method 2 - iterates by taking 2^n until overflow is reached through bitshifting
-//  Method 2 could also be done by 
+//  Method 2 - iterates by bitshifting until overflow is reached
+//  Method 2 is essentially equivalent to taking 2^n and incrementing n by one
 // The min and max values may vary depending on your hardware.
 int main(int argc, char const *argv[])
 {
