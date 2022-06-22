@@ -16,12 +16,14 @@ int main(int argc, char const *argv[])
 
     printf("Calculating Minimum and Maximum values of signed short int in O(N) time...\n");
 
+    // iterate until n overflows to negative
     while (n > 0) 
     {
         n++;
     }
     
     printf("%d (Min value of signed short int)\n", n);
+    // underflow n to get max value
     n = n - 1;
     printf("%d (Max value of signed short int)\n", n);
     
